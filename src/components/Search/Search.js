@@ -19,10 +19,11 @@ function Search() {
   return (
     <div>
       <div className="container">
+        <label>Search a joke</label>
         <input
           className="search-bar"
           type="text"
-          placeholder="søg efter joke"
+          placeholder="search a joke"
           value={input}
           onChange={handleSearch}
         />

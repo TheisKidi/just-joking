@@ -8,7 +8,7 @@ function Favorites() {
 
   return (
     <div className="favorites-container">
-      <h2>Mine Favoritter</h2>
+      <h2>Favorite jokes</h2>
       <div className="favorites-list">
         {favorites.length > 0 ? (
           favorites.map((joke) => <FavoriteCard key={joke.id} joke={joke} />)

@@ -10,11 +10,20 @@
 
 h2{
   text-align: center;
+  font-weight: 600;
 }
 
 .container{
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container label {
+  margin-top: 40px;
+  font-weight: 600;
+  font-size: 24px;
 }
 
 .search-bar{
@@ -22,7 +31,7 @@ h2{
   width: 200px;
   justify-content: center;
   padding: 20px 40px;
-  margin: 50px;
+  margin: 10px 10px;
   font-size: 20px;
   font-family: 'poppins';
   border: 2px solid var(--text);
@@ -32,5 +41,5 @@ h2{
 }
 
 .search-bar::placeholder{
-  color: var(--click);
+  color: transparent;
 }
