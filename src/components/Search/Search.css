@@ -1,0 +1,36 @@
+.favorite-container{
+  padding: 20px;
+}
+
+.favorites-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+h2{
+  text-align: center;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+.search-bar{
+  outline: none;
+  width: 200px;
+  justify-content: center;
+  padding: 20px 40px;
+  margin: 50px;
+  font-size: 20px;
+  font-family: 'poppins';
+  border: 2px solid var(--text);
+  color: var(--text);
+  text-align: center;
+  background-color: transparent;
+}
+
+.search-bar::placeholder{
+  color: var(--click);
+}

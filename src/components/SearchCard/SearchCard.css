@@ -1,0 +1,41 @@
+.favorite-card{
+  padding: 20px;
+  background-color: black;
+  margin: 0;
+}
+
+.favorite-card-title{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.setup{
+  font-weight: 600;
+}
+
+.punchline{
+  font-style: italic;
+}
+
+.my-btn{
+  width: 200px;
+  padding: 10px;
+  font-size: 15px;
+  background-color: var(--text);
+  border: none;
+  font-weight: bold;
+  color: var(--base);
+  transition: background-color 0.1s ease-in;
+  cursor: pointer;
+}
+
+.my-btn.favorite {
+  background-color: rgb(124, 214, 124);
+  color: rgb(0, 0, 0); 
+}
+
+.my-btn:hover{
+  background-color: var(--click);
+}
