@@ -2,12 +2,15 @@
   padding: 20px;
   background-color: black;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 220px;
 }
 
 .favorite-card-title{
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  flex-direction: column;
   gap: 20px;
 }
 
@@ -20,6 +23,7 @@
 }
 
 .my-btn{
+  margin-top: auto;
   width: 200px;
   padding: 10px;
   font-size: 15px;

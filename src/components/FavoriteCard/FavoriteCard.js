@@ -16,7 +16,7 @@ function FavoriteCard({ joke }) {
       <div className="favorite-card-title">
         <h3 className="setup">{joke.setup}</h3>
       </div>
-      <p className="punchline">{joke.punchline}</p>
+      <p className="punchline">" {joke.punchline} "</p>
       <button className="my-btn" onClick={handleRemove}>
         Fjern fra Favoritter
       </button>
